@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 06 layout</title>
+    <style>
+        .firstPart, .secondPart{
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(233, 245, 245);
+        }
+        h1,h2,ul{
+            display: inline-block;
+            width: 48%;
+            color: orangered;
+            font-weight: 700;
+        }
+        li{
+            font-size: 20px;
+        }
+        .firstpic,.secondpic{
+            width: 45%;
+            height: 300px;
+            display: inline-block;
+            padding-top: 20px;
+        }
+        table,th,td{
+           text-align: center;
+            padding: 15px;
+            font-size: 1.5rem;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+       .thirdPart{
+        margin-left: 30px;
+       }
+       caption{
+        font-weight: bold;
+        margin-top: 50px;
+       }
+       a{
+            margin-bottom: 50px;
+            font-size: 25px;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="firstPart">
+        <h1>Welcome to our restaurant.</h1>
+        <img class="firstpic" src="https://media.istockphoto.com/id/692557700/photo/burger.jpg?s=612x612&w=0&k=20&c=8ajzPWqvrLvl779OI3XMFR_tZV5V-7VSDlSeaX47Uhk=" alt="Burger Image">
+    </div>
+    <div class="secondPart">
+        <img class="secondpic" src="https://i.insider.com/55e0ae9fbd86ef20008b6b20?width=1136&format=jpeg" alt="burger picture">
+    
+        <ul>
+            <h2>Our all recipe</h2>
+            <li>Chicken Parmesan</li>
+            <li>Beef Biryani</li>
+            <li>Tandoori Chicken</li>
+            <li>Pad Thai</li>
+            <li>Lasagna</li>
+            <li>Salmon With Roasted Vegetables</li>
+        
+        </ul>
+
+       
+    </div>
+
+    <div class="thirdPart">
+        <table>
+            <caption>Pricing Table</caption>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Person</th>
+            </tr>
+            <tr>
+                <td>Chicken Parmesan</td>
+                <td>$ 6.33 </td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Beef Biryani</td>
+                <td>$ 6.55</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Tandoori Chicken</td>
+                <td>$ 6.55</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Pad Thai</td>
+                <td>$ 6.55</td>
+                <td>2</td>
+            </tr>
+        </table>
+    </div>
+    <a href="class6_2.html">Part Two</a>
+</body>
+</html>
